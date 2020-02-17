@@ -4,10 +4,10 @@ import ResponsiveMenuHr from '../components/ResponsiveMenuHr'
 export default () => {
   return (
     <>
-      <header>
+      <header className="">
         <div className="container mx-auto"></div>
+        <ResponsiveMenuHr />
       </header>
-      <ResponsiveMenuHr />
     </>
   )
 }
