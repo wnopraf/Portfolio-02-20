@@ -10,5 +10,9 @@
   @apply mb-4;
 }
 .menu-hr__item > a {
-  @apply block pb-2 border-b-4 border-white;
+  @apply block pb-2 border-b-4 border-white transition-opacity duration-300;
+}
+
+.menu-hr__item > a:hover {
+  @apply opacity-75;
 }
