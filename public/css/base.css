@@ -1,0 +1,14 @@
+.left-menu {
+  left: 2rem;
+}
+
+.menu-position {
+  top: 0.5rem;
+  left: 0.5rem;
+}
+.menu-hr__item {
+  @apply mb-4;
+}
+.menu-hr__item > a {
+  @apply block pb-2 border-b-4 border-white;
+}
