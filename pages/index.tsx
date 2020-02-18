@@ -8,7 +8,7 @@ import DisplayLetters from '../components/DisplayLetters'
 export default () => {
   return (
     <>
-      <header className="">
+      <header>
         <div className="container mx-auto flex flex-col justify-center items-center h-full">
           <DisplayLetters />
         </div>
