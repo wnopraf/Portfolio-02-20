@@ -23,7 +23,7 @@ export default () => {
           </animated.span>
         )
       })}
-      <animated.div className="absolute bg-indigo-400 text-white left-0 mt-10 px-6 py-2 z-10" style={props}>
+      <animated.div className="absolute bg-indigo-400 text-white left-0 top-0 mt-16 px-6 py-2 z-10" style={props}>
         <div className="menu-hr__item">
           <a href="">menu-item</a>
         </div>
