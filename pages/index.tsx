@@ -10,8 +10,6 @@ export default () => {
     <>
       <header className="">
         <div className="container mx-auto flex flex-col justify-center items-center h-full">
-          {/* <LettersName name="Rafael Prieto" />
-          <LettersProfession profession="Web developer" /> */}
           <DisplayLetters />
         </div>
         <ResponsiveMenuHr />
