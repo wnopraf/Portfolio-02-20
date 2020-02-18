@@ -1,8 +1,10 @@
+:root {
+  --bg-indigo-500-opacity-85: rgba(102, 126, 234, 0.890196078431372);
+}
 header {
-  background-image: url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
   background-size: cover;
-  height: 500px;
-  @apply relative;
+  background-color: var(--bg-indigo-500-opacity-85);
+  @apply relative h-screen;
 }
 header::after {
   content: '';
@@ -12,7 +14,8 @@ header::after {
   left: 0;
   width: 100%;
   height: 100%;
-  @apply bg-indigo-400 opacity-50;
+  background-image: url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+  z-index: -1;
 }
 .left-menu {
   left: 2rem;
