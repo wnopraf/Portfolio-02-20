@@ -1,6 +1,10 @@
 :root {
   --bg-indigo-500-opacity-85: rgba(102, 126, 234, 0.890196078431372);
 }
+h1 {
+  @apply text-5xl;
+}
+
 header {
   background-size: cover;
   background-color: var(--bg-indigo-500-opacity-85);
@@ -20,7 +24,12 @@ header::after {
 .left-menu {
   left: 2rem;
 }
-
+.letter {
+  @apply text-3xl;
+}
+.letter-wrapper {
+  letter-spacing: 5px;
+}
 .menu-position {
   top: 0.5rem;
   left: 0.5rem;

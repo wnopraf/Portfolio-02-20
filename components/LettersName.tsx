@@ -15,14 +15,14 @@ export default ({ name, nameRef }) => {
   })
 
   return (
-    <div className="relative z-10 text-2xl text-white font-extrabold tracking-widest">
+    <div className="letter-wrapper relative z-10  text-white font-extrabold">
       {trail.map((props, index) => {
         return splitedName[index] === ' ' ? (
-          <animated.span key={index} style={props} className="inline-block">
+          <animated.span key={index} style={props} className="letter inline-block">
             &nbsp;
           </animated.span>
         ) : (
-          <animated.span key={index} style={props} className="inline-block">
+          <animated.span key={index} style={props} className="letter inline-block">
             {splitedName[index]}
           </animated.span>
         )
