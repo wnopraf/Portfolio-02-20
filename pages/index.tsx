@@ -16,13 +16,13 @@ export default () => {
         </div>
         <ResponsiveMenuHr />
       </header>
-      <section className="py-8">
-        <div className="about-me-wrapper container mx-auto p-8">
+      <section className="">
+        <div className="about-me-wrapper container mx-auto px-8 py-64">
           <AboutMe />
         </div>
       </section>
-      <section className="py-8">
-        <div className="my-work-wrapper container mx-auto p-8">
+      <section className="">
+        <div className="my-work-wrapper container mx-auto p-8 py-40">
           <MyWork />
         </div>
       </section>

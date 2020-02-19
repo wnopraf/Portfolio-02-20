@@ -27,6 +27,7 @@ header::after {
 .about-me {
   color: var(--purple-text-aboutme);
 }
+
 .about-me p + p {
   @apply pt-6;
 }
