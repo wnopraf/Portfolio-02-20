@@ -31,6 +31,9 @@ header::after {
 .about-me p + p {
   @apply pt-6;
 }
+.contact-wrapper {
+  background-color: var(--bg-indigo-500-opacity-85);
+}
 .left-menu {
   left: 2rem;
 }
