@@ -4,6 +4,7 @@ import ResponsiveMenuHr from '../components/ResponsiveMenuHr'
 import LettersName from '../components/LettersName'
 import LettersProfession from '../components/LettersProfession'
 import DisplayLetters from '../components/DisplayLetters'
+import AboutMe from '../components/AboutMe'
 
 export default () => {
   return (
@@ -14,6 +15,11 @@ export default () => {
         </div>
         <ResponsiveMenuHr />
       </header>
+      <section className="py-8">
+        <div className="container mx-auto">
+          <AboutMe />
+        </div>
+      </section>
     </>
   )
 }
