@@ -5,6 +5,7 @@ import LettersName from '../components/LettersName'
 import LettersProfession from '../components/LettersProfession'
 import DisplayLetters from '../components/DisplayLetters'
 import AboutMe from '../components/AboutMe'
+import MyWork from '../components/MyWork'
 
 export default () => {
   return (
@@ -16,8 +17,13 @@ export default () => {
         <ResponsiveMenuHr />
       </header>
       <section className="py-8">
-        <div className="container mx-auto">
+        <div className="about-me-wrapper container mx-auto p-8">
           <AboutMe />
+        </div>
+      </section>
+      <section className="py-8">
+        <div className="my-work-wrapper container mx-auto p-8">
+          <MyWork />
         </div>
       </section>
     </>
