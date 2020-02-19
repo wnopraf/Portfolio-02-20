@@ -1,6 +1,7 @@
 :root {
   --bg-indigo-500-opacity-85: rgba(102, 126, 234, 0.890196078431372);
   --purple-text-aboutme: rgb(113, 111, 146);
+  --light-gray: rgb(241, 238, 238);
 }
 
 h1 {
@@ -51,4 +52,14 @@ header::after {
 
 .menu-hr__item > a:hover {
   @apply opacity-75;
+}
+.My-work__icon {
+  @apply flex  items-center relative h-32;
+}
+.my-work-wrapper {
+  color: var(--bg-indigo-500-opacity-85);
+  background: var(--light-gray);
+}
+.my-work__circle {
+  border-color: var(--bg-indigo-500-opacity-85);
 }
