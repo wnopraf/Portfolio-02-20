@@ -6,6 +6,7 @@ import LettersProfession from '../components/LettersProfession'
 import DisplayLetters from '../components/DisplayLetters'
 import AboutMe from '../components/AboutMe'
 import MyWork from '../components/MyWork'
+import Contact from '../components/Contact'
 
 export default () => {
   return (
@@ -16,14 +17,19 @@ export default () => {
         </div>
         <ResponsiveMenuHr />
       </header>
-      <section className="">
+      <section>
         <div className="about-me-wrapper container mx-auto px-8 py-64">
           <AboutMe />
         </div>
       </section>
-      <section className="">
-        <div className="my-work-wrapper container mx-auto p-8 py-40">
+      <section>
+        <div className="my-work-wrapper container mx-auto p-8 py-64">
           <MyWork />
+        </div>
+      </section>
+      <section className="">
+        <div className="contact-wrapper container mx-auto p-8 py-32">
+          <Contact />
         </div>
       </section>
     </>
