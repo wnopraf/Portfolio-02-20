@@ -1,4 +1,3 @@
-import ResponisveMenu from '../components/ResponisveMenu'
 import ResponsiveMenuHr from '../components/ResponsiveMenuHr'
 
 import LettersName from '../components/LettersName'
