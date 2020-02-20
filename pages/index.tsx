@@ -17,17 +17,17 @@ export default () => {
         </div>
         <ResponsiveMenuHr />
       </header>
-      <section>
+      <section id="About-me">
         <div className="about-me-wrapper container mx-auto px-8 py-64">
           <AboutMe />
         </div>
       </section>
-      <section>
+      <section id="My-work">
         <div className="my-work-wrapper container mx-auto p-8 py-64">
           <MyWork />
         </div>
       </section>
-      <section className="">
+      <section id="Contact">
         <div className="contact-wrapper container mx-auto p-8 py-32">
           <Contact />
         </div>

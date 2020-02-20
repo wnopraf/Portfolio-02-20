@@ -25,19 +25,16 @@ export default () => {
       })}
       <animated.div className="absolute bg-indigo-400 text-white left-0 top-0 mt-20  z-10 p-6" style={props}>
         <div className="menu-hr__item">
-          <a href="">menu-item</a>
+          <a href="www.rafaelprieto.netlify.com">Index</a>
         </div>
         <div className="menu-hr__item">
-          <a href="">menu-item</a>
+          <a href="#About-me">About me</a>
         </div>
         <div className="menu-hr__item">
-          <a href="">menu-item</a>
+          <a href="#My-work">My Work</a>
         </div>
         <div className="menu-hr__item">
-          <a href="">menu-item</a>
-        </div>
-        <div className="menu-hr__item">
-          <a href="">menu-item</a>
+          <a href="#Contact">Contact</a>
         </div>
       </animated.div>
     </div>
