@@ -10,7 +10,7 @@ export default () => {
   useChain([nameRef, professionRef])
 
   return (
-    <div>
+    <div className="pl-4">
       <LettersName name="Rafael Prieto" nameRef={nameRef} />
       <LettersProfession profession="Web Developer" professionRef={professionRef} />
     </div>

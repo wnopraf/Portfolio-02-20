@@ -40,6 +40,11 @@ header::after {
 .letter {
   @apply text-3xl;
 }
+@screen md {
+  .letter {
+    @apply text-5xl;
+  }
+}
 .letter-wrapper {
   letter-spacing: 5px;
 }
