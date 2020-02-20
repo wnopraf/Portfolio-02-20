@@ -1,1 +1,1 @@
-# Nextjs template + typescript + tailwindcss + eslint + prettier configuration
+# Personal portfolio built with react, react-spring and tailwindcss.
