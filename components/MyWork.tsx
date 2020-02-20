@@ -15,7 +15,12 @@ export default () => {
       <h1 className="sm:text-5xl font-extrabold tracking-wider">Want to know more about my work ?</h1>
       <div className="My-work__icon pt-10 flex flex-col md:flex-row justify-center items-center">
         <p className="font-extrabold text-2xl tracking-wider mr-10 ml-4">Visit my Github profile</p>
-        <a href="" className="relative block h-16 w-16 mt-12 md:mt-0">
+        <a
+          href="https://github.com/wnopraf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="relative block h-16 w-16 mt-12 md:mt-0"
+        >
           {trail.map((props, i) => {
             return <animated.div key={i} style={props} className="my-work__circle "></animated.div>
           })}
