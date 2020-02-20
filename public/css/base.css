@@ -58,7 +58,7 @@ header::after {
   @apply mt-8;
 }
 .menu-hr__item > a {
-  @apply block pb-2 border-b-4 border-white font-bold duration-300 px-16  pt-2 transition;
+  @apply block pb-2 border-b-8 border-white font-bold duration-300 px-16  pt-2 transition;
 }
 @screen md {
   .menu-hr__item > a {
