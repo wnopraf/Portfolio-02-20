@@ -9,7 +9,7 @@ export default ({ profession, professionRef }) => {
   })
 
   return (
-    <animated.h1 className="md:text-6xl relative z-10 text-white font-extrabold tracking-wider" style={props}>
+    <animated.h1 className="text-5xl md:text-6xl relative z-10 text-white font-extrabold tracking-wider" style={props}>
       {profession}
     </animated.h1>
   )

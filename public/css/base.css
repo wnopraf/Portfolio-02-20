@@ -5,7 +5,7 @@
 }
 
 h1 {
-  @apply text-5xl;
+  @apply text-3xl;
 }
 
 header {
@@ -77,4 +77,5 @@ header::after {
 }
 .my-work__circle {
   border-color: var(--bg-indigo-500-opacity-85);
+  @apply border-2 absolute h-16 w-16 rounded-full;
 }
