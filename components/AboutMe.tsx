@@ -30,9 +30,12 @@ export default () => {
   console.log(props)
   return (
     <animated.div ref={node} style={props} className="about-me text-2xl font-extrabold tracking-widest text-gray-400">
-      <p>Hi, i'm Rafael, a programmer especialized in javascript and frontend technologies</p>
-      <p>I love to build things, from a shine beatiful static site, to a powerful web app</p>
-      <p>I love running code and see the results</p>
+      <p>
+        Hi, i'm Rafael, a web developer based on Granada, Spain. Im specialized in javascript and frontend technologies,
+        but i can handle backend programming as well.
+      </p>
+      <p>Always learning and thinking about the next big thing to create.</p>
+      <p>I love the magic moment of running code and see what happens.</p>
     </animated.div>
   )
 }
