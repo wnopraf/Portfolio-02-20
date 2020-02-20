@@ -14,16 +14,16 @@ export default () => {
     <div className="menu-hr text-xl text-white pt-3">
       {transitions.map(({ item, key, props }) => {
         return item ? (
-          <animated.span style={props} className=" bg-indigo-400 inline-block absolute menu-position text-3xl z-10">
+          <animated.span style={props} className="menu-button ">
             <MdClose onClick={() => setIsOpen(!isOpen)} className="cursor-pointer" />
           </animated.span>
         ) : (
-          <animated.span style={props} className=" bg-indigo-400 inline-block absolute menu-position text-3xl z-10">
+          <animated.span style={props} className="menu-button ">
             <MdMenu onClick={() => setIsOpen(!isOpen)} className="cursor-pointer" />
           </animated.span>
         )
       })}
-      <animated.div className="absolute bg-indigo-400 text-white left-0 top-0 mt-16 px-6 py-2 z-10" style={props}>
+      <animated.div className="absolute bg-indigo-400 text-white left-0 top-0 mt-20  z-10 p-6" style={props}>
         <div className="menu-hr__item">
           <a href="">menu-item</a>
         </div>

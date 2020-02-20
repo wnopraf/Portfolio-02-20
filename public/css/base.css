@@ -43,19 +43,25 @@ header::after {
 .letter-wrapper {
   letter-spacing: 5px;
 }
-.menu-position {
-  top: 0.5rem;
-  left: 0.5rem;
-}
-.menu-hr__item {
-  @apply mb-4;
-}
-.menu-hr__item > a {
-  @apply block pb-2 border-b-4 border-white transition-opacity duration-300;
+.menu-button {
+  top: 1rem;
+  left: 1rem;
+  @apply bg-indigo-400 inline-block absolute  text-4xl z-10;
 }
 
+.menu-hr__item:not(:first-child) {
+  @apply mt-8;
+}
+.menu-hr__item > a {
+  @apply block pb-2 border-b-4 border-white font-bold duration-300 px-16  pt-2 transition;
+}
+@screen md {
+  .menu-hr__item > a {
+    @apply px-24;
+  }
+}
 .menu-hr__item > a:hover {
-  @apply opacity-75;
+  @apply bg-white text-indigo-500 shadow-xs;
 }
 .My-work__icon {
   @apply flex  items-center relative h-32;
