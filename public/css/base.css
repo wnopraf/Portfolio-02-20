@@ -1,6 +1,6 @@
 :root {
   --bg-indigo-500-opacity-85: rgba(102, 126, 234, 0.890196078431372);
-  --purple-text-aboutme: rgb(113, 111, 146);
+  --indigo-text-aboutme: rgb(111, 118, 147);
   --light-gray: rgb(241, 238, 238);
 }
 
@@ -26,7 +26,8 @@ header::after {
   z-index: -1;
 }
 .about-me {
-  color: var(--purple-text-aboutme);
+  line-height: 2;
+  color: var(--indigo-text-aboutme);
 }
 
 .about-me p + p {
