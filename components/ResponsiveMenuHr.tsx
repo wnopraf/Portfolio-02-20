@@ -6,7 +6,7 @@ export default () => {
   const props = useSpring({ transform: isOpen ? `translate3d(0%,0,0)` : `translate3d(-100%,0,0)` })
   const transitions = useTransition(isOpen, null, {
     from: { opacity: 0, transform: `rotateY(0deg)` },
-
+    initial: null,
     enter: { transform: `rotateY(180deg)`, opacity: 1 },
     leave: { transform: `rotateY(180deg)`, opacity: 1 }
   })
