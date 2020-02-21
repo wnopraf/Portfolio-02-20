@@ -25,7 +25,7 @@ export default () => {
       })}
       <animated.div className="absolute bg-indigo-400 text-white left-0 top-0 mt-20  z-10 p-6" style={props}>
         <div className="menu-hr__item">
-          <a href="www.rafaelprieto.netlify.com">Index</a>
+          <a href="/">Index</a>
         </div>
         <div className="menu-hr__item">
           <a href="#About-me">About me</a>
