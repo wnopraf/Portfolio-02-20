@@ -28,7 +28,7 @@ export default () => {
           <a href="/">Index</a>
         </div>
         <div className="menu-hr__item">
-          <a href="#About-me">About me</a>
+          <a href="#About-me">About Me</a>
         </div>
         <div className="menu-hr__item">
           <a href="#My-work">My Work</a>
