@@ -15,7 +15,7 @@
   "author": "Rafa Prieto",
   "license": "ISC",
   "dependencies": {
-    "next": "^9.2.1",
+    "next": "^9.3.2",
     "prettier": "^1.19.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
