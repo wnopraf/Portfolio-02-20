@@ -3,15 +3,19 @@
   --indigo-text-aboutme: rgb(111, 118, 147);
   --light-gray: rgb(241, 238, 238);
 }
-
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 h1 {
   @apply text-3xl;
 }
 
 header {
   background-color: var(--bg-indigo-500-opacity-85);
+  font-family: 'Squada One', cursive;
   @apply relative h-screen;
 }
+
 header::after {
   content: '';
   display: block;
