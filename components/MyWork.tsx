@@ -11,10 +11,10 @@ export default () => {
     config: config.molasses
   })
   return (
-    <div className="My-work text-center">
-      <h1 className="sm:text-5xl font-extrabold tracking-wider">Want to know more about my work ?</h1>
-      <div className="My-work__icon pt-10 flex flex-col md:flex-row justify-center items-center">
-        <p className="font-extrabold text-2xl tracking-wider mr-10 ml-4">Visit my Github profile</p>
+    <div className="my-work text-center">
+      <h1 className=" font-extrabold tracking-wider">Want to know more about my work ?</h1>
+      <div className="my-work__icon pt-10 flex flex-col md:flex-row justify-center items-center">
+        <p className="font-extrabold text-2xl sm:text-4xl tracking-wider mr-10 ml-4">Visit my Github profile</p>
         <a
           href="https://github.com/wnopraf"
           target="_blank"

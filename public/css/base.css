@@ -5,18 +5,22 @@
 }
 body {
   font-family: 'Open Sans', sans-serif;
+  @apply text-white;
 }
 h1 {
-  @apply text-3xl;
-}
-
-header {
-  background-color: var(--bg-indigo-500-opacity-85);
+  @apply text-5xl font-bold;
   font-family: 'Squada One', cursive;
-  @apply relative h-screen;
 }
-
-header::after {
+@screen sm {
+  h1 {
+    @apply text-6xl;
+  }
+}
+.content {
+  background-color: var(--bg-indigo-500-opacity-85);
+  @apply relative;
+}
+.content::after {
   content: '';
   display: block;
   position: absolute;
@@ -29,24 +33,33 @@ header::after {
   background-repeat: no-repeat;
   z-index: -1;
 }
+header {
+  font-family: 'Squada One', cursive;
+  @apply relative h-screen;
+}
+@screen sm {
+  .prof-header {
+    font-size: 7rem;
+  }
+}
+#About-me:hover {
+  color: var(--bg-indigo-500-opacity-85);
+}
 .about-me {
   line-height: 2;
-  color: var(--indigo-text-aboutme);
 }
 
 .about-me p + p {
   @apply pt-6;
 }
-.contact-wrapper {
-  background-color: var(--bg-indigo-500-opacity-85);
-}
+
 .left-menu {
   left: 2rem;
 }
 .letter {
-  @apply text-3xl;
+  @apply text-4xl;
 }
-@screen md {
+@screen sm {
   .letter {
     @apply text-5xl;
   }
@@ -74,14 +87,20 @@ header::after {
 .menu-hr__item > a:hover {
   @apply bg-white text-indigo-500 shadow-xs;
 }
-.My-work__icon {
+#My-work:hover {
+  color: var(--bg-indigo-500-opacity-85);
+}
+#My-work:hover .my-work__circle {
+  border-color: var(--bg-indigo-500-opacity-85);
+}
+.my-work__icon {
   @apply flex  items-center relative h-32;
 }
-.my-work-wrapper {
-  color: var(--bg-indigo-500-opacity-85);
-  background: var(--light-gray);
-}
+
 .my-work__circle {
-  border-color: var(--bg-indigo-500-opacity-85);
   @apply border-2 absolute h-16 w-16 rounded-full;
+}
+
+#Contact:hover {
+  color: var(--bg-indigo-500-opacity-85);
 }

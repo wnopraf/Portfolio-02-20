@@ -29,7 +29,8 @@ export default () => {
   }, [])
   console.log(props)
   return (
-    <animated.div ref={node} style={props} className="about-me text-2xl font-extrabold tracking-widest text-gray-400">
+    <animated.div ref={node} style={props} className="about-me text-2xl font-extrabold tracking-widest">
+      <h1>About Me</h1>
       <p>
         Hi, i'm Rafael, a web developer based on Granada, Spain. Im specialized in javascript and frontend technologies,
         but i can handle backend programming as well.
